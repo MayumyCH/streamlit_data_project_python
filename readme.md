@@ -9,33 +9,33 @@ _Este Proyecto tiene como objetivo crear una aplicacion de ciencia de datos dond
 
 ## 🔎 PASOS:
 
-1⃣-  💡  Crear un Enviroments Python
+1-  💡  Crear un Enviroments Python
 
-    - Con gitbash:
-
-        ```
-        python3 -m venv envStreamlit
-        python --version
-        source envStreamlit/Scripts/activate
-        ```
-    - Otros modos: [link](https://gist.github.com/MayumyCH/8641ce303572488239692db3a07f2334)
-
-2⃣- ⏳ Instalar las librerias necesarias a utilizas:
+- Con gitbash:
 
     ```
-    pip install -r ./resources/requirements.txt
+    python3 -m venv envStreamlit
+    python --version
+    source envStreamlit/Scripts/activate
     ```
+- Otros modos: [link](https://gist.github.com/MayumyCH/8641ce303572488239692db3a07f2334)
 
-3⃣- ⚙ Generar / Jalar los pkl
+2- ⏳ Instalar las librerias necesarias a utilizas:
 
-    En este paso es donde tenemos que tener nuestro proyecto de ciencia de datos, aqui se busca exportar los modelos a formato KML. Para que estos sean consumidos por la web que se creara
+```
+pip install -r ./resources/requirements.txt
+```
+
+3- ⚙ Generar / Jalar los pkl
+
+En este paso es donde tenemos que tener nuestro proyecto de ciencia de datos, aqui se busca exportar los modelos a formato KML. Para que estos sean consumidos por la web que se creara
 
 
-4⃣- 🗒 Crear un archivo ``web.py``
+4- 🗒 Crear un archivo ``web.py``
 
-    Aqui es donde estara todo el codigo para crear la aplicación de ciencia de datos
+Aqui es donde estara todo el codigo para crear la aplicación de ciencia de datos
 
-5⃣- 🚀 Desplegar la aplicación
+5- 🚀 Desplegar la aplicación
 
 
 ## 🔗 Link importantes 
