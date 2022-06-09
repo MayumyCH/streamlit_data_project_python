@@ -22,7 +22,7 @@ def main():
     st.header("Introducción ")
     st.write("""
      proyecto se propone el análisis de la data proporcionada por Kaggle el cual corresponde a videojuegos se tiene las ventas y 
-     los scores obtenidos (Vgchartz y Metacritic); se busca Predecir la ventas de videojuegos para el género de Acción.
+     los scores obtenidos (Vgchartz y Metacritic); se busca Predecir la ventas de videojuegos para el género de Acción. !! --!!
     """)
 
     # -- SIDEBAR
