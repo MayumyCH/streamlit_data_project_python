@@ -9,7 +9,7 @@ _Este Proyecto tiene como objetivo crear una aplicacion de ciencia de datos dond
 
 ## 🔎 PASOS:
 
-1-  💡  Crear un Enviroments Python
+### 1-  💡  Crear un Enviroments Python
 
 - Con gitbash:
 
@@ -17,31 +17,41 @@ _Este Proyecto tiene como objetivo crear una aplicacion de ciencia de datos dond
     python3 -m venv envStreamlit
     python --version
     source envStreamlit/Scripts/activate
+
+    deactivate
     ```
 - Otros modos: [link](https://gist.github.com/MayumyCH/8641ce303572488239692db3a07f2334)
 
-2- ⏳ Instalar las librerias necesarias a utilizas:
+### 2- ⏳ Instalar las librerias necesarias a utilizar:
 
 ```
-pip install -r ./resources/requirements.txt
+pip install -r requirements.txt
 ```
 
-3- ⚙ Generar / Jalar los pkl
-
+### 3- ⚙ Cargar los datos / Entrenar modelo / Jalar los pkl
 En este paso es donde tenemos que tener nuestro proyecto de ciencia de datos, aqui se busca exportar los modelos a formato KML. Para que estos sean consumidos por la web que se creara
 
 
-4- 🗒 Crear un archivo ``web.py``
-
+### 4- 🗒 Crear un archivo ``web.py``
 Aqui es donde estara todo el codigo para crear la aplicación de ciencia de datos
 
-5- 🚀 Desplegar la aplicación
+### 5- 🚀 Desplegar la aplicación
+
+- Forma local
+    ```
+    streamlit run web.py
+    ```
+- Forma Remota
 
 
 ## 🔗 Link importantes 
 1. [Link de la data del proyecto]()
 2. [Notebook del proyecto]()
-2. [PDF presentación del proyecto]()
+3. [PDF presentación del proyecto]()
+
+--
+
+https://nbviewer.org/
 
 ---
 ⌨️ con ❤️ por  [Mayumy CH ☠️](https://github.com/MayumyCH)  
