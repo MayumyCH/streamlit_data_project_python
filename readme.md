@@ -44,17 +44,26 @@ Aquí es donde estará todo el código para crear la aplicación de ciencia de d
 - Forma REMOTO
 
   Usaremos [Streamlit.io ⚡](https://share.streamlit.io/) para publicar nuestra app !
+  
+  <br>
+
+  **📌 NOTA: Hay que tener nuestro proyecto en un repositorio de Github**
 
   <br>
-  📌 NOTA: Hay que tener nuestro proyecto en un repositorio de Github
 
-  <br>
   Luego ejecutar los siguientes pasos:
-  [Streamlit.io]((https://share.streamlit.io/))
-  .
-  [Streamlit.io]((https://share.streamlit.io/))
 
-  Y listo ya tenemos nuestro app publicado !!
+  <br>
+
+
+  ![Streamlit.io](https://raw.githubusercontent.com/MayumyCH/streamlit_data_project_python/main/resources/img/Streamlit_1.png)
+  .
+
+  ![Streamlit.io](https://raw.githubusercontent.com/MayumyCH/streamlit_data_project_python/main/resources/img/Streamlit_2.png)
+
+  <br>
+
+  Y listo ya tenemos nuestra app publicada  🔥🌟!!
 
 ## 🔗 Link importantes 
 1. [Link de la data del proyecto](https://raw.githubusercontent.com/MayumyCH/streamlit_data_project_python/main/data/data_videojuego.csv)
