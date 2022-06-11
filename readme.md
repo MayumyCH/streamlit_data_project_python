@@ -1,10 +1,10 @@
 
 
-# Creando una aplicacion de ciencia de datos 📈 con Streamlit 🐍 🔥
+# Creando una aplicación de ciencia de datos 📈 con Streamlit 🐍 🔥
 
 ![banner](https://d33wubrfki0l68.cloudfront.net/dd2a2b03ccc054ff15ef9dc1ca050c7e0b7e19be/4131e/images/logo.png)
 
-_Este Proyecto tiene como objetivo crear una aplicacion de ciencia de datos donde podamos mostrar todos nuestros resultados (Graficos, modelos, etc) y que estos sean visualizados de forma efectiva 🌟._
+_Este Proyecto tiene como objetivo crear una aplicación de ciencia de datos donde podamos mostrar todos nuestros resultados (Gráficos, modelos, etc) y que estos sean visualizados de forma efectiva 🌟._
 
 
 ## 🔎 PASOS:
@@ -22,18 +22,18 @@ _Este Proyecto tiene como objetivo crear una aplicacion de ciencia de datos dond
     ```
 - Otros modos: [link](https://gist.github.com/MayumyCH/8641ce303572488239692db3a07f2334)
 
-### 2- ⏳ Instalar las librerias necesarias a utilizar:
+### 2- ⏳ Instalar las librerías necesarias a utilizar:
 
 ```
-pip install -r requirements.txt
+pip install -r requirement.txt
 ```
 
 ### 3- ⚙ Cargar los datos / Entrenar modelo / Jalar los pkl
-En este paso es donde tenemos que tener nuestro proyecto de ciencia de datos, aqui se busca exportar los modelos a formato KML. Para que estos sean consumidos por la web que se creara
+En este paso es donde tenemos que tener nuestro proyecto de ciencia de datos, aquí se busca exportar los modelos a formato KML. Para que estos sean consumidos por la web que se creara
 
 
 ### 4- 🗒 Crear un archivo ``web.py``
-Aqui es donde estara todo el codigo para crear la aplicación de ciencia de datos
+Aquí es donde estará todo el código para crear la aplicación de ciencia de datos
 
 ### 5- 🚀 Desplegar la aplicación
 
@@ -54,6 +54,7 @@ Aqui es donde estara todo el codigo para crear la aplicación de ciencia de dato
 https://nbviewer.org/
 
 pip install plotly_express==0.4.0
+pip uninstall -r requirements.txt -y
 
 ---
 ⌨️ con ❤️ por  [Mayumy CH ☠️](https://github.com/MayumyCH)  

@@ -6,7 +6,7 @@ import altair as alt
 from PIL import Image
 import plotly_express as px
 
-# Extrar los archivos pickle
+# Extraer los archivos pickle
 with open('model_lr.pkl', 'rb') as li: # Modo Lectura
     lin_reg = pickle.load(li)
 
@@ -39,7 +39,7 @@ def main():
     st.image(image)
 
     st.write("""
-     _Este proyecto se propone el análisis de la [data](https://www.kaggle.com/saurabhshahane/wild-blueberry-yield-prediction/version/1) proporcionada por Kaggle el cual corresponde a videojuegos se tiene las ventas y 
+     _Este proyecto se propone el análisis de la [data](https://www.kaggle.com/saurabhshahane/wild-blueberry-yield-prediction/version/1) proporcionada por Kaggle el cual corresponde a videojuegos se tiene las ventas y
      los scores obtenidos (Vgchartz y Metacritic).
      Se busca Predecir la ventas de videojuegos para el género de Acción_
     """)
@@ -66,7 +66,7 @@ def main():
     #  	            SIDEBAR
     #  -------------------------------
     st.sidebar.title("Settings")
-    
+
     nroRegistros = st.sidebar.number_input('Seleccionar el nro de datos:', min_value=3, max_value=10, step=1)
     #nroRegistros = st.sidebar.slider('Slope', min_value=3, max_value=10, step=1)
 
@@ -82,7 +82,7 @@ def main():
             y_values = st.sidebar.selectbox('Y axis', options=numeric_columns)
             #color_value = st.sidebar.selectbox("Color", options=non_numeric_columns)
             plot = px.scatter(data_frame=df, x=x_values, y=y_values)
-            #plot = px.scatter(data_frame=df, x=x_values, y=y_values, color=color_value)     
+            #plot = px.scatter(data_frame=df, x=x_values, y=y_values, color=color_value)
         except Exception as e:
             print(e)
 
@@ -96,7 +96,7 @@ def main():
             #plot = px.box(data_frame=df, y=y, x=x, color=color_value)
         except Exception as e:
             print(e)
-    
+
     if chart_select == 'Histogram':
         st.sidebar.subheader("Histogram Settings")
         try:
@@ -119,24 +119,15 @@ def main():
     Motivado por el web scraping de [Gregory Smith](https://www.kaggle.com/gregorut/datasets) de VGChartz [Video Games Sales](https://www.kaggle.com/gregorut/videogamesales).
     Este conjunto de datos simplemente amplía el número de variables con otro web scraping de [Metacritic](https://www.metacritic.com/browse/games/release-date/available).
 
-    Desafortunadamente, faltan observaciones, ya que Metacritic solo cubre un subconjunto de las plataformas. Además, un juego puede no tener todas las observaciones de las variables adicionales que se analizan a continuación. 
+    Desafortunadamente, faltan observaciones, ya que Metacritic solo cubre un subconjunto de las plataformas. Además, un juego puede no tener todas las observaciones de las variables adicionales que se analizan a continuación.
     Los casos completos son ~ 6,900
     """)
-
-
-
-    
-
-
-
-
 
 
     # ----------------------------------- BODY
     st.header("2.- 📁 Comprensión de los datos")
     st.dataframe(df.head(nroRegistros))
 
-    
 
     st.header("3.- 📊 Analisis exploratorios (EDA)")
 
