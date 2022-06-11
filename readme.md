@@ -53,5 +53,7 @@ Aqui es donde estara todo el codigo para crear la aplicación de ciencia de dato
 
 https://nbviewer.org/
 
+pip install plotly_express==0.4.0
+
 ---
 ⌨️ con ❤️ por  [Mayumy CH ☠️](https://github.com/MayumyCH)  
