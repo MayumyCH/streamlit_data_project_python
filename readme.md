@@ -2,14 +2,14 @@
 
 # Creando una aplicación de ciencia de datos 📈 con Streamlit 🐍 🔥
 
-![banner](https://d33wubrfki0l68.cloudfront.net/dd2a2b03ccc054ff15ef9dc1ca050c7e0b7e19be/4131e/images/logo.png)
+![banner](https://raw.githubusercontent.com/MayumyCH/streamlit_data_project_python/main/resources/banner.png)
 
 _Este Proyecto tiene como objetivo crear una aplicación de ciencia de datos donde podamos mostrar todos nuestros resultados (Gráficos, modelos, etc) y que estos sean visualizados de forma efectiva 🌟._
 
 
 ## 🔎 PASOS:
 
-### 1-  💡  Crear un Enviroments Python
+### 1-  💡  Crear un Environments Python
 
 - Con gitbash:
 
@@ -43,18 +43,22 @@ Aquí es donde estará todo el código para crear la aplicación de ciencia de d
     ```
 - Forma Remota
 
+  Usaremos [Streamlit.io]((https://share.streamlit.io/)) para publicar nuestra app !
+
+  Nota: Hay que tener nuestro proyecto en un repositorio de Github
+
+  Luego ejecutar los siguientes pasos:
+  [Streamlit.io]((https://share.streamlit.io/))
+  .
+  [Streamlit.io]((https://share.streamlit.io/))
+
+  Y listo ya tenemos nuestro app publicado !!
 
 ## 🔗 Link importantes 
 1. [Link de la data del proyecto]()
 2. [Notebook del proyecto]()
 3. [PDF presentación del proyecto]()
-
---
-
-https://nbviewer.org/
-
-pip install plotly_express==0.4.0
-pip uninstall -r requirements.txt -y
+3. [Link de la aplicación web del proyecto]()
 
 ---
 ⌨️ con ❤️ por  [Mayumy CH ☠️](https://github.com/MayumyCH)  

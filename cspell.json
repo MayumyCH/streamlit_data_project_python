@@ -5,9 +5,22 @@
     "language": "en,es",
     // words -- palabras que quiero que omita
     "words": [
+        "altair",
+        "Boxplot",
+        "dataframe",
+        "dtypes",
         "gitbash",
+        "latin",
+        "Mayumy",
+        "Playstation",
+        "plotly",
+        "rmse",
+        "Scatterplots",
         "selectbox",
-        "subheader"
+        "sklearn",
+        "streamlit",
+        "subheader",
+        "venv"
     ],
     // This is useful for offensive words and common spelling errors.
     // For example "hte" should be "the"
