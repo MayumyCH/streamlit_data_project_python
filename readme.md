@@ -37,16 +37,18 @@ Aquí es donde estará todo el código para crear la aplicación de ciencia de d
 
 ### 5- 🚀 Desplegar la aplicación
 
-- Forma local
+- Forma LOCAL
     ```
     streamlit run web.py
     ```
-- Forma Remota
+- Forma REMOTO
 
-  Usaremos [Streamlit.io]((https://share.streamlit.io/)) para publicar nuestra app !
+  Usaremos [Streamlit.io ⚡](https://share.streamlit.io/) para publicar nuestra app !
 
-  Nota: Hay que tener nuestro proyecto en un repositorio de Github
+  <br>
+  📌 NOTA: Hay que tener nuestro proyecto en un repositorio de Github
 
+  <br>
   Luego ejecutar los siguientes pasos:
   [Streamlit.io]((https://share.streamlit.io/))
   .
@@ -55,10 +57,10 @@ Aquí es donde estará todo el código para crear la aplicación de ciencia de d
   Y listo ya tenemos nuestro app publicado !!
 
 ## 🔗 Link importantes 
-1. [Link de la data del proyecto]()
-2. [Notebook del proyecto]()
-3. [PDF presentación del proyecto]()
-3. [Link de la aplicación web del proyecto]()
+1. [Link de la data del proyecto](https://raw.githubusercontent.com/MayumyCH/streamlit_data_project_python/main/data/data_videojuego.csv)
+2. [Notebook del proyecto](https://github.com/MayumyCH/streamlit_data_project_python/blob/main/data_science_project_python.ipynb)
+3. [PDF presentación del proyecto](https://github.com/MayumyCH/streamlit_data_project_python/blob/main/resources/WiDS_2022_MAYUMY_CARRASCO.pdf)
+3. [Link de la aplicación web del proyecto](https://share.streamlit.io/mayumych/streamlit_data_project_python/main/web.py)
 
 ---
 ⌨️ con ❤️ por  [Mayumy CH ☠️](https://github.com/MayumyCH)  
